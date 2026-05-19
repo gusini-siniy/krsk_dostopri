@@ -1,60 +1,49 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="RU-ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ДОСТОПРИМЕЧАТЕЛЬНОСТИ КРАСНОЯРСКОГО КРАЯ</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="anims.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <meta name="robots" content="">
+    <title>Достопримечательности Красноярска</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="header-links">
-        <div class="header-logo">
-          <h1>Достопримечательности Красноярска</h1>
+    <main>
+        <div class="header-content">            
+            <div class="text-h1">
+                <h1>Достопримечательности Города Красноярск.</h1>
+            </div>
+            <select class="selection" onchange="eventchanging()" id="tip_selection">
+                <option value="tsar-riba">🦈Царь-Рыба</option>
+                <option value="usadba">🏠Дом-Усадьба Сурикова</option>
+                <option>👨‍🦱Астафьев</option>
+                <option>🗽Памятник Андрею Дубенскому</option>
+                <option>🌲Столбы</option>
+            </select>
         </div>
-        <ul>
-          <li>Царь-Рыба</li>
-          <li>Музей-Усадьба Сурикова</li>
-          <li>Краеведчиский Музей</li>
-          <li>Черная Сопка</li>
-          <li>Столбы</li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="main-section">
-     <h1>Царь Рыба</h1>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-content">
-      <div class="footer-section">
-        <h1>Овсянка</h1>
-        <ul>
-          <li>Астафьев</li>
-          <li>Царь-Рыба</li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h1>Овсянка</h1>
-        <ul>
-          <li>Астафьев</li>
-          <li>Царь-Рыба</li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h1>Суриков</h1>
-        <ul>
-          <li>Музей-Усадьба Сурикова</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+        <div class="section-info-a" id="whattheydid">
+            <div class="info-content">
+                <div class="info-content-n1">
+                    <h3 id="title">Название</h3>
+                    <p id="text">Текст</p>
+                </div>
+            </div>
+        </div>        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+            </div>
+            <div class="footer-info">
+                <div class="footer-info-bg">
+                    <h3>Разработано Гусини-Синий в 2026 году</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+</html>

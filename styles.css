@@ -1,0 +1,89 @@
+* {
+    top: 0;
+    left:0;
+    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+}
+
+main {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-shadow: #c7186f 8px 8px 128px;
+    font-size: 7vh;
+    color: #b318c7;
+}
+
+footer {
+   padding: 5%;
+   background-color: black;
+   color: white;
+}
+
+.header-content {
+    font-weight: 500;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-right: auto;
+    padding-left: auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #010103;
+}
+
+.button-h1-big > button {
+    background-color: #2E4F21;
+    color:white;
+    border-radius: 64px;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    width: 15%;
+    border-style: none;
+}
+
+.button-h1-big > button:hover {
+    animation-name: changeButton-h1;
+    animation-duration: 1s;
+}
+
+@keyframes changeButton-h1 {
+  0%   {background-color: #2E4F21; transform: scale(100%);}
+  25%  {background-color: #56913e;}
+  50%  {background-color: #2E4F21;}
+  100% {background-color: #67b14a; transform: scale(110%);}
+}
+
+.logo-img, .info-img {
+    border-radius: 24px;
+}
+
+.section-info-a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10%;
+    font-size: x-large;
+    background-color: #010103;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+br {
+    padding: 8%;
+}
+
+.selection {
+    border: #c7186f 4px solid;
+    font-size: 2.75vh;
+    color:white;
+    background-color: #220011;
+    border-radius: 12px;
+}
