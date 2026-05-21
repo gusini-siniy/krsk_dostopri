@@ -2,36 +2,36 @@
 function tsar_fish () {
     var title = document.getElementById('title');
     var text = document.getElementById('text');
-    title.innerHTML = '<h3>🦈Царь-Рыба</h3>';
-    text.innerHTML = '<p>Смотровая площадка на Слизнёвском утёсе появилась в 1970-х годах по инициативе Петра Алексеевича Старовойтова — легендарного директора дорожного предприятия. Благоустройство площадки поручили его заместителю Борису Михайловичу Лишневскому, который объявил конкурс на лучшее оформление. Победил проект студента архитектурного факультета Алексея Мякоты. Сама Статуя Появилась в 2004 Году Возле Овсянки. От Туда Отличный Вид На Поселок!</p>';
+    title.innerHTML = '<h2>🦈Царь-Рыба</h2>';
+    text.innerHTML = '<h3>Царь-Рыба - это статуя которая находится в Овсянке. Она поставлена в честь произведения В.Астафьева Царь Рыба. Четырёхметровый осётр весом около 300 килограммов, стремительно вырывающийся из рвущихся сетей. Он выполнен из кованого металла и гранита, с очень реалистичными деталями: скелет рыбы собран из 140 кованых элементов, к которым затем присоединялись отдельно выкованные плавники, хвост и голова</h3>';
 }
 
 function surikov () {
     var title = document.getElementById('title');
     var text = document.getElementById('text');
-    title.innerHTML = '<h3>📝Суриков</h3>';
-    text.innerHTML = '<a href="https://gusini-siniy.github.io/surikov/">Ссылка На Сайт</a>';
+    title.innerHTML = '<h2>📝Суриков</h2>';
+    text.innerHTML = '<a href="htth3s://gusini-siniy.github.io/surikov/">Ссылка На Сайт</a>';
 }
 
 function astafeev () {
     var title = document.getElementById('title');
     var text = document.getElementById('text');
-    title.innerHTML = '<h3>👨Астафьев</h3>';
-    text.innerHTML = '<p>Виктор Петрович Астафьев (1924–2001) — русский писатель, драматург, публицист и сценарист, признанный классик при жизни. Его произведения переведены на 35 языков. Родился В Овсянке.</p>';
+    title.innerHTML = '<h2>👨Астафьев</h2>';
+    text.innerHTML = '<h3>Виктор Петрович Астафьев (1924–2001) — русский писатель, драматург, публицист и сценарист, признанный классик при жизни. Его произведения переведены на 35 языков. Родился В Овсянке.</h3>';
 }
 
 function statue () {
     var title = document.getElementById('title');
     var text = document.getElementById('text');
-    title.innerHTML = '<h3>🗽Андрей Дубенский</h3>';
-    text.innerHTML = '<p>Памятник Основателю Красноярска Возле Мед. Института. Поставлен в 1997 Году. И Именно На Этом Месте Андрей Написал Письмо Царю О Основании Города.</p>';
+    title.innerHTML = '<h2>🗽Андрей Дубенский</h2>';
+    text.innerHTML = '<h3>Памятник Основателю Красноярска Возле Мед. Института. Поставлен в 1997 Году. И Именно На Этом Месте Андрей Написал Письмо Царю О Основании Города.</h3>';
 }
 
-function park () {
+function h3ark () {
     var title = document.getElementById('title');
     var text = document.getElementById('text');
-    title.innerHTML = '<h3>🌲Столбы</h3>';
-    text.innerHTML = '<p>Огромный Национальный Заповедник В Красноярском Крае. Находятся Главные Достопримечательности: Столбы Из Каменных Пород, Перья, Дед, Бабка и др. Площадь — 47 219 га. Живут Очень Много Животных. Такие Как: Медведи, Белки, Орлы и Другие.</p>';
+    title.innerHTML = '<h2>🌲Столбы</h2>';
+    text.innerHTML = '<h3>Огромный Национальный Заповедник В Красноярском Крае. Находятся Главные Достопримечательности: Столбы Из Каменных Пород, Перья, Дед, Бабка и др. Площадь — 47 219 га. Живут Очень Много Животных. Такие Как: Медведи, Белки, Орлы и Другие.</h3>';
 }
 
 
@@ -39,8 +39,8 @@ function park () {
 
 
 function eventchanging () {
-    var tipsselection = document.getElementById("tip_selection");
-    const index = tipsselection.selectedIndex;
+    var tih3sselection = document.getElementById("tip_selection");
+    const index = tih3sselection.selectedIndex;
     if(index == 0)
     {
         tsar_fish();
@@ -57,9 +57,9 @@ function eventchanging () {
     {
         statue();
     }
-    if(index == 5)
+    if(index == 4)
     {
-        park();
+        h3ark();
     }
 
 }
